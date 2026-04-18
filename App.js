@@ -53,7 +53,7 @@ export default function App() {
     await Notifications.scheduleNotificationAsync({
       content: {
         title: "Hola, mundo 🌍",
-        body: `Esta es tu primera notificación. El contador va en: ${contador}`,
+        body: `Esta es tu primera notificación`,
       },
       trigger: null, // Este trigger lo puedes modificar para darle unos segundos de delay, ejemplo: trigger{ seconds: 5 }
     });
